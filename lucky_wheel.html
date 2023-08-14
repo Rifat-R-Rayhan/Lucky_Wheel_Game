@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Wheel</title>
+    <link rel="stylesheet" href="lucky_wheel.css">
+</head>
+<body>
+    
+    <div class="container" id="container">
+        <div class="box" id="box">
+            <div class="box1">
+                <span class="span1"><h5>1</h5></span>
+                <span class="span2"><h5>2</h5></span>
+                <span class="span3"><h5>3</h5></span>
+                <span class="span4"><h5>4</h5></span>
+                <span class="span5"><h5>5</h5></span>
+            </div>
+            <div class="box2">
+                <span class="span1"><h5>6</h5></span>
+                <span class="span2"><h5>7</h5></span>
+                <span class="span3"><h5>8</h5></span>
+                <span class="span4"><h5>9</h5></span>
+                <span class="span5"><h5>10</h5></span>
+            </div>
+        </div>
+        <button class="btn" onclick="spin()">SPIN</button>
+    </div>
+
+    <audio controls="controls" id="applause" src="./CrowdCheerApplsOut.mp3" type="audion/mp3"></audio>
+    <audio controls="controls" id="wheel" src="./RouletteWheelSpinn.mp3" type="audion/mp3"></audio>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="lucky_wheel.js"></script>
+</body>
+</html>
